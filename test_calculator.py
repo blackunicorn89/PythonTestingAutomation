@@ -1,5 +1,5 @@
 import pytest
-from calculator_test import add, multiply, power
+from calculator import add, multiply, power
 
 @pytest.mark.parametrize("input1, input2, expected", [
     (3, 5, 8),
